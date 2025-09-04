@@ -95,7 +95,7 @@ cs_iso_uncertainty = np.std(cs_committee_iso, axis=1)
 
 # Compute the chemical shielding anisotropy (from mean tensor prediction)
 
-cs_psa = np.linalg.eigvalsh(cs_tensor)
+cs_pas = np.linalg.eigvalsh(cs_tensor)
 ```
 
 This snippet will estimate the predicted chemical shieldings of diamond to be highly uncertain, 
